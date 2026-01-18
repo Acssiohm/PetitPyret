@@ -1,0 +1,12 @@
+(ocamllex
+ (modules lexer))
+
+(menhir
+ (modules parser)
+ (flags --explain --dump --automaton-graph --cmly)
+ (infer true))
+
+(executable
+ (name pyretc )
+ (promote (until-clean))
+ (flags ()))
