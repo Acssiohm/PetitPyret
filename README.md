@@ -46,11 +46,15 @@ Et, tout comme rbp, une case mémoire sur la pile est réservée à sauvegarder 
 Il est possible de faire comme demandé dans le sujet un simple
 `make`
 pour obtenir un fichier ./pyretc.exe qui peux prendre les options "--parse-only" ou "--type-only" ainsi que le fichier .arr
-De plus il est possible d'exécuter les tests de parsing avec :
+
+De plus il est possible d'exécuter les tests de parsing avec 
 `make test_parsing`
-ceux de typage avec :
+
+ceux de typage avec 
 `make test_typing`
-et ceux d'exécution avec :
+
+et ceux d'exécution avec 
 `make test_exec`
+
 Enfin il est possible de nettoyer avec
 `make clean`
